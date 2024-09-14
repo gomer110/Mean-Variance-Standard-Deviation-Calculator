@@ -23,7 +23,4 @@ def calculate(list):
                     [my_array[0,:3].sum(), my_array[1,:3].sum(), my_array[2,:3].sum()],
                     my_array.sum()]}
 
-    for key, value in calculations.items():
-        print(f"Key: {key}, Value: {value}")
-
     return calculations
